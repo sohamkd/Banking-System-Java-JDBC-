@@ -92,7 +92,7 @@ public class Accounts {
         return 10000100;
     }
 
-    private boolean account_exist(String email) {
+    public  boolean account_exist(String email) {
         String query="SELECT account_number FROM Accounts WHERE email=?";
 
         try{
